@@ -1,0 +1,16 @@
+name: Print message
+
+description: Prints a message to the console.
+
+inputs:
+  message:
+    description: The message to print.
+    required: true
+
+outputs:
+  none:
+    description: This action does not produce any outputs.
+
+runs:
+  using: "node16"
+  main: "index.js"
